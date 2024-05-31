@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up Form</title>
+    <link rel="stylesheet" href="signup.css">
+    <link rel="icon" type="image/x-icon" href="/images/logo.png">
+</head>
+<body>
+
+    <div id="container">
+        <h1>"Her Voice, Her Strength"</h1>
+        <h3>Endorsed by the Music Geeks</h3>
+        <form action="mainpage.html" id="login" onsubmit="return ValidateForm()">
+            <fieldset form="login">
+               
+                <div id="namerow">
+                
+                <div class="namefield1">
+                
+                <label for="firstname">*First Name</label><br>
+                <span class="error" id="error1">*Required</span>
+                <input type="text" id="name1" name="firstname">
+                </div>
+
+                <div class="namefield2">
+                <label for="lastname">*Last Name</label> <br>
+                <span class="error" id="error2">*Required</span>
+                <input type="text" id="name2" name="lastname">
+                </div>
+            
+                </div>
+                
+                <p>*Gender</p>  
+                <span class="error" id="error3">*Required</span>
+
+                <input type="radio" id="male" name="gender" value="Male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="Female">
+                <label for="female">Female</label>
+                <input type="radio" id="na" name="gender" value="Not any of the above">
+                <label for="na">Prefer not to say</label><br><br>
+               
+                <label for="email">*Email Address</label> 
+                <span class="error" id="error4">*Required</span> <br>
+                <input type="email" id="email" name="email"><br> <br>
+
+                <label for="password">Password</label>
+                <span class="error" id="error5">*Required</span><br>
+                <input type="password" id="pWord" name="password"> <br> <br>
+
+                <label for="contactnumber">*Contact Number</label> <br> 
+                <span class="error" id="error6">*Required</span><br>
+                <input type="tel" id="contnum" name="contactnumber"> <br> <br>
+
+                <label for="campaign">*Why do you support this campaign? </label>
+                <span class="error" id="error7">*Required</span><br>
+                <textarea id="camptext" name="campaign" rows="4" cols="50"> </textarea> <br>
+                
+                <div class="submitcenter">
+
+                <input type="submit" value="SIGN UP NOW!">
+                
+                </div>
+
+            </fieldset>
+
+        </form>
+    
+    </div>
+    
+  
+
+    
+    
+
+</body>
+<script src="signup.js"></script>
+</html>

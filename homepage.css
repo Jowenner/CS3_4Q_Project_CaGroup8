@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada+Big&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+.center {
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+}
+
+.homepage {
+    color: #f3f1db;
+    text-shadow: 1px 1px 2px black;
+}
+
+h1 {
+    font-size:60px;
+    margin-left: 5px;
+}
+
+p{
+    font-size:20px;
+}
+
+.font1 {
+    font-family:'Cookie';
+}
+
+.font2 {
+    font-family:'Radio Canada Big';
+}
+
+.bold {
+    font-weight:bold;
+}
+
+.image {
+    width:200px;
+    height:200px;
+    border-radius:75px;
+}
+
+.picture {
+    width:200px;
+    height:200px;
+    border-radius:75px;
+}
+
+.image:hover {
+    width:225px;
+    height:225px;
+    transition-duration:1s;
+}
+
+table {
+    padding-left:37.5%;
+    padding-top: 30px;
+    
+}
+
+td {
+    padding-right:10px;
+}
+
+a {
+    text-decoration:none;
+}
+
+.large {
+    font-size: 40px;
+}
+
+.makecenter {
+    padding-left:40px;
+    padding-right:40px;
+}
+
+.info {
+    color: #f3f1db;
+    text-shadow: 1px 1px 2px black;
+    font-family:'Radio Canada Big';
+    font-weight:bold;
+    text-align:center;
+}

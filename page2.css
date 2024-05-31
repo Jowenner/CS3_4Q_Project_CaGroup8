@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada+Big&display=swap');
+
+* {
+    margin: 0;
+}
+
+body {
+    scrollbar-width: none;
+    background-image: url("images/page2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-attachment: fixed;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+   
+}
+
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    
+}
+
+img {
+    max-height: 30vh;
+    max-width: 30vw;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+h1 {
+    display:flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    text-shadow: 5px 5px black;
+    font-family:'Cookie';
+    font-weight:bold;
+    font-size: 5vh;
+    margin-bottom:-5vh;
+}
+img, h2 {
+    text-align: center;
+}
+
+#container1, #container2, #container3, #container4, #container5, #container6 {
+    background-color: burlywood;
+    border-radius: 15px;
+    width:auto;
+    height: auto;
+    padding: 25px;
+    color: #3D2214;
+    transition: transform 0.3s ease-in-out;
+    font-family: 'Radio Canada Big';
+    font-weight:bold;
+    box-shadow: 15px 15px brown;
+    margin-right:4vw;
+}
+
+
+#container1:hover, #container2:hover, #container3:hover, #container4:hover, #container5:hover, #container6:hover {
+    transform: scale(1.125); 
+}
+
+
+h2, h3, li, p {
+    margin-top: 1.5vh;
+    font-size: 1.275vh;
+   
+}
+
+h2 {
+    margin: 0;
+    font-size: 2vh;
+}
+
+
+
+#container1 {
+   height:80vh;
+   
+ 
+}
+
+#container2 {
+    height:80vh;
+  
+}
+#container3 {
+    height:80vh;
+    
+}
+
+#container4 {
+    height:80vh;
+    
+}
+
+#container5 {
+    height:80vh;
+    
+   
+}
+
+#container6 {
+    height: 80vh;
+   
+}
+
